@@ -1,0 +1,14 @@
+debug/main.o
+debug/principal.o
+debug/datamanager.o
+debug/question.o
+debug/indexedbutton.o
+debug/image.o
+debug/login.o
+debug/qrc_resources.o
+debug/moc_principal.o
+debug/moc_datamanager.o
+debug/moc_question.o
+debug/moc_indexedbutton.o
+debug/moc_image.o
+debug/moc_login.o

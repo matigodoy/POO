@@ -1,0 +1,14 @@
+release/main.o
+release/principal.o
+release/datamanager.o
+release/question.o
+release/indexedbutton.o
+release/image.o
+release/login.o
+release/qrc_resources.o
+release/moc_principal.o
+release/moc_datamanager.o
+release/moc_question.o
+release/moc_indexedbutton.o
+release/moc_image.o
+release/moc_login.o

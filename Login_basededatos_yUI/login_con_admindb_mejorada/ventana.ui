@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ventana</class>
+ <widget class="QWidget" name="Ventana">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>432</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Consulta de base de datos</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../../../../../../../../Desktop/ubp.png</normaloff>../../../../../../../../../Desktop/ubp.png</iconset>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="1" column="0">
+    <widget class="QLabel" name="lUsuario">
+     <property name="text">
+      <string>Usuario</string>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="1">
+    <widget class="QPushButton" name="pbAgregar">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="text">
+      <string> Agregar usuario</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../../../../../../../Desktop/add-list-32.png</normaloff>../../../../../../../../../Desktop/add-list-32.png</iconset>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="1">
+    <widget class="QPushButton" name="pbEliminar">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string> Eliminar Usuario</string>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../../../../../../../../../Desktop/delete-32.png</normaloff>../../../../../../../../../Desktop/delete-32.png</iconset>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="leUsuario">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="Nombre">
+     <property name="text">
+      <string>Nombre</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="lClave">
+     <property name="text">
+      <string>Clave</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="lApellido">
+     <property name="text">
+      <string>Apellido</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="lMail">
+     <property name="text">
+      <string>Mail</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="leClave">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="leNombre"/>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="leApellido"/>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="leMail"/>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <widget class="QTableWidget" name="tDatos">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <column>
+      <property name="text">
+       <string>Usuario</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Clave</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Nombre</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Apellido</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Mail</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>leUsuario</tabstop>
+  <tabstop>leClave</tabstop>
+  <tabstop>leNombre</tabstop>
+  <tabstop>leApellido</tabstop>
+  <tabstop>leMail</tabstop>
+  <tabstop>tDatos</tabstop>
+  <tabstop>pbAgregar</tabstop>
+  <tabstop>pbEliminar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

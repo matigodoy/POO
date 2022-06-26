@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/images/ubp.png</file>
+        <file>resources/images/background.jpg</file>
+        <file>resources/animations/loading.gif</file>
+        <file>resources/images/isologo.png</file>
+    </qresource>
+</RCC>
